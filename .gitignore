@@ -1,21 +1,15 @@
-/build/
-/out/
-/.gradle/
-/.idea/
-*.iml
-gradlew
-gradlew.bat
-build.gradle
-settings.gradle
-gradle/
-db/wiseSaying/
-
-db/wiseSaying/
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
 ### IntelliJ ###
-/.idea/
-/*.iml
-/out/
+.idea
+*.iws
+*.iml
+*.ipr
+out/
 
 ### OS ###
 .DS_Store
