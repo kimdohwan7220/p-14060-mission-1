@@ -1,4 +1,3 @@
-HELP.md
 /build/
 /out/
 /.gradle/
@@ -11,34 +10,15 @@ settings.gradle
 gradle/
 db/wiseSaying/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+db/wiseSaying/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
+### IntelliJ ###
 /.idea/
 /*.iml
 /out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+### OS ###
+.DS_Store
 
 ### VS Code ###
 .vscode/
-
-### Mac OS ###
-.DS_Store
