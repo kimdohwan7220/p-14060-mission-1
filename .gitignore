@@ -1,18 +1,21 @@
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-
-### IntelliJ ###
-.idea
-*.iws
+# Gradle build output
+/build/
+/out/
+/.gradle/
+/.idea/
 *.iml
-*.ipr
-out/
+gradlew
+gradlew.bat
+build.gradle
+settings.gradle
+gradle/
+db/wiseSaying/
 
-### OS ###
+# IntelliJ
+/.idea/
+/*.iml
+/out/
+
+# OS 관련
 .DS_Store
-
-### VS Code ###
-.vscode/
+Thumbs.db
