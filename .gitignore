@@ -1,9 +1,15 @@
 HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+/build/
+/out/
+/.gradle/
+/.idea/
+*.iml
+gradlew
+gradlew.bat
+build.gradle
+settings.gradle
+gradle/
+db/wiseSaying/
 
 ### STS ###
 .apt_generated
@@ -20,6 +26,9 @@ build/
 *.iml
 *.ipr
 out/
+/.idea/
+/*.iml
+/out/
 
 ### NetBeans ###
 /nbproject/private/
